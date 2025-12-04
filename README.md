@@ -37,12 +37,19 @@ lib/
 ## 3. App Screenshots
 
 <p align="center">
+  <img src="srcreenshots/1.png" alt="Home Page" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
+  <img src="srcreenshots/2.png" alt="Count Down" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
+  <img src="srcreenshots/3.png" alt="Question Card" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
+  <img src="srcreenshots/5.png" alt="Quiz Completion" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
+</p>
+
+<!-- <p align="center">
   <img src="screenshots/1.png" alt="Home Page" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
   <img src="screenshots/2.png" alt="Count Down" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
   <img src="screenshots/3.png" alt="Question Card" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
   <img src="screenshots/4.png" alt="Answer Card" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
   <img src="screenshots/5.png" alt="Quiz Completion" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-</p>
+</p> -->
 
 ## Getting started
 
