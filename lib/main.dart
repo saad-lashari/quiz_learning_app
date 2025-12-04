@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:quiz_learning_app/core/di/injection.dart';
 import 'package:quiz_learning_app/core/router/app_router.dart';
 import 'package:quiz_learning_app/core/utils/app_utils.dart';
-import 'package:quiz_learning_app/dashboard/presentation/cubit/dashboard_cubit.dart';
+import 'package:quiz_learning_app/features/dashboard/presentation/cubit/dashboard_cubit.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:quiz_learning_app/dashboard/presentation/cubit/dashboard_cubit.dart';
-import 'package:quiz_learning_app/dashboard/presentation/cubit/dashboard_state.dart';
+import 'package:quiz_learning_app/features/dashboard/presentation/cubit/dashboard_cubit.dart';
+import 'package:quiz_learning_app/features/dashboard/presentation/cubit/dashboard_state.dart';
 import 'package:quiz_learning_app/features/home/presentation/view/home_page.dart';
 
 // Assuming you have imported your Cubit and State classes,

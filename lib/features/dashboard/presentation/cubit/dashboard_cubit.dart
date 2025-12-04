@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quiz_learning_app/dashboard/presentation/cubit/dashboard_state.dart';
+import 'package:quiz_learning_app/features/dashboard/presentation/cubit/dashboard_state.dart';
 
 // Assuming DashboardState is defined as above
 class DashboardCubit extends Cubit<DashboardState> {
