@@ -1,4 +1,12 @@
-#  Flutter Interview Test Task 
+# Quiz Learning App
+
+Lightweight Flutter quiz app demonstrating a feature-first architecture, BLoC state management, and responsive UI for mobile, web and desktop.
+
+## Features
+- Quiz categories and questions
+- Progress tracking per user and category
+- Responsive home layout 
+- BLoC-based state management
 
 ## 1. Dependencies Used
 
@@ -9,7 +17,6 @@
 *   **flutter_screenutil**: To make the UI responsive across different screen sizes.
 *   **flutter_bloc** & **bloc**: For state management using the BLoC pattern, separating business logic 
 
-
 ## 2. Project Structure
 
 The project follows a feature-first architecture, with a core directory for shared components.
@@ -18,9 +25,8 @@ The project follows a feature-first architecture, with a core directory for shar
 lib/
  ├── core/
  │   ├── constants/   # Contains application-wide constants like colors and image paths.
- │   ├── theme/       # Defines the application's theme.
- │   ├── utils/       # Holds utility functions, like date helpers.
- │   └── widgets/     # Contains reusable custom widgets used across multiple features.
+ │   └── utils/       # Holds utility functions.
+ │   
  ├── features/      # Contains the different features of the application, separated by domain.
  │   ├── dashboard/
  │   ├── home/
@@ -37,6 +43,45 @@ lib/
   <img src="screenshots/4.png" alt="Answer Card" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
   <img src="screenshots/5.png" alt="Quiz Completion" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
 </p>
+
+## Getting started
+
+Prerequisites:
+- Flutter SDK (stable channel)
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the app (mobile):
+
+```bash
+flutter run -d <device_id>
+```
+
+Run for web (Chrome):
+
+```bash
+flutter run -d chrome
+```
+
+Run for macOS (desktop):
+
+```bash
+flutter run -d macos
+```
+
+Run tests:
+
+```bash
+flutter test
+```
+
+Tests added:
+- `test/unit/is_small_device_test.dart` — unit tests for the responsive helpers
+- `test/widget/category_card_test.dart` — widget test ensuring `CategoryCard` renders correctly
 
 
 ## 4. App Video
