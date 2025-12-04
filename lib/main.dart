@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:quiz_learning_app/core/di/injection.dart';
 import 'package:quiz_learning_app/core/router/app_router.dart';
+import 'package:quiz_learning_app/core/utils/app_utils.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +16,9 @@ class QuizApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(375, 812),
+      designSize: isSmalllDevice(context)
+          ? const Size(375, 812)
+          : Size(1032, 1900),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {

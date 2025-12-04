@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quiz_learning_app/core/di/injection.dart';
+import 'package:quiz_learning_app/core/utils/app_utils.dart';
 import 'package:quiz_learning_app/features/home/presentation/widgets/bottom_nav_bar.dart';
 import 'package:quiz_learning_app/features/home/presentation/widgets/category_card.dart';
 import 'package:quiz_learning_app/features/home/presentation/widgets/user_header.dart';
@@ -168,7 +169,7 @@ class HomeView extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: MediaQuery.of(context).size.width > 600 ? 3 : 2,
-        childAspectRatio: 0.85,
+        childAspectRatio: isSmalllDevice(context) ? 0.85 : 2,
         crossAxisSpacing: 16.w,
         mainAxisSpacing: 16.h,
       ),
