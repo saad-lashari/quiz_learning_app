@@ -3,9 +3,9 @@
 ## 1. Dependencies Used
 
 *   **dio**: Used for API's calling .
-*   **dartz**: Used for API's calling .
-*   **go_router**: Used for API's calling .
-*   **equatable**: Used for API's calling .
+*   **dartz**: For functional error handling.
+*   **go_router**: For navigation
+*   **equatable**: For value comparison
 *   **flutter_screenutil**: To make the UI responsive across different screen sizes.
 *   **flutter_bloc** & **bloc**: For state management using the BLoC pattern, separating business logic 
 
@@ -31,12 +31,13 @@ lib/
 ## 3. App Screenshots
 
 <p align="center">
-  <img src="srcreenshots/1.png" alt="Template Screen" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
-  <img src="ssrcreenshots/2.png" alt="Create Invoice 1" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
-  <img src="srcreenshots/3.png" alt="Create Invoice 2" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
-  <img src="srcreenshots/4.png" alt="Create Invoice 3" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
-   <img src="srcreenshots/5.png" alt="Create Invoice 3" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
+  <img src="screenshots/1.png" alt="Home Page" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="screenshots/2.png" alt="Count Down" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="screenshots/3.png" alt="Question Card" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="screenshots/4.png" alt="Answer Card" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="screenshots/5.png" alt="Quiz Completion" width="200" style="margin: 10px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
 </p>
+
 
 ## 4. App Video
 
