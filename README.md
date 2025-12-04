@@ -8,7 +8,7 @@ Lightweight Flutter quiz app demonstrating a feature-first architecture, BLoC st
 - Responsive home layout 
 - BLoC-based state management
 
-## 1. Dependencies Used
+## Dependencies Used
 
 *   **dio**: Used for API's calling .
 *   **dartz**: For functional error handling.
@@ -17,7 +17,7 @@ Lightweight Flutter quiz app demonstrating a feature-first architecture, BLoC st
 *   **flutter_screenutil**: To make the UI responsive across different screen sizes.
 *   **flutter_bloc** & **bloc**: For state management using the BLoC pattern, separating business logic 
 
-## 2. Project Structure
+## Project Structure
 
 The project follows a feature-first architecture, with a core directory for shared components.
 
@@ -34,7 +34,7 @@ lib/
  └── main.dart      # The entry point of the application.
 ```
 
-## 3. App Screenshots
+## App Screenshots
 
 <p align="center">
   <img src="srcreenshots/1.png" alt="Home Page" width="200" style="margin: 10px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
@@ -91,13 +91,13 @@ Tests added:
 - `test/widget/category_card_test.dart` — widget test ensuring `CategoryCard` renders correctly
 
 
-## 4. App Video
+## App Video
 
 [Watch Video](https://drive.google.com/file/d/1XMYIClpZ3I_b8HnW0EixswzD9HuyfU4Y/view?usp=drive_link)
 
 
 
-## 5. App APK
+## App APK
 
 [Download APK](https://drive.google.com/file/d/1ga7Gi0dNBD1U2rc5F-IbzIGycNAZzbgy/view?usp=sharing)
 
