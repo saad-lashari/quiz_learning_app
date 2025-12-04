@@ -4,7 +4,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:quiz_learning_app/core/di/injection.dart';
 import 'package:quiz_learning_app/core/utils/app_utils.dart';
-import 'package:quiz_learning_app/features/home/presentation/widgets/bottom_nav_bar.dart';
 import 'package:quiz_learning_app/features/home/presentation/widgets/category_card.dart';
 import 'package:quiz_learning_app/features/home/presentation/widgets/user_header.dart';
 import '../../../../core/router/app_router.dart';
@@ -55,7 +54,6 @@ class HomeView extends StatelessWidget {
           );
         },
       ),
-      bottomNavigationBar: const BottomNavBar(),
     );
   }
 
@@ -82,7 +80,9 @@ class HomeView extends StatelessWidget {
               shape: BoxShape.circle,
               border: Border.all(color: Colors.indigo, width: 3),
               image: DecorationImage(
-                image: NetworkImage(state.user.image),
+                image: NetworkImage(
+                  "https://corsproxy.io/?${state.user.image}",
+                ),
                 fit: BoxFit.cover,
               ),
             ),

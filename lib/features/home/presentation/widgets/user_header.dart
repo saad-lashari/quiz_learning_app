@@ -35,11 +35,12 @@ class UserHeader extends StatelessWidget {
               shape: BoxShape.circle,
               border: Border.all(color: Colors.indigo, width: 2),
               image: DecorationImage(
-                image: NetworkImage(user.image),
+                image: NetworkImage("https://corsproxy.io/?${user.image}"),
                 fit: BoxFit.cover,
               ),
             ),
           ),
+
           SizedBox(width: 12.w),
           Expanded(
             child: Column(
