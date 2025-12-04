@@ -1,5 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
+import 'package:quiz_learning_app/core/const/app_constants.dart';
 import 'package:quiz_learning_app/core/router/app_router.dart';
 import 'package:quiz_learning_app/features/home/presentation/bloc/home_bloc.dart';
 import 'package:quiz_learning_app/features/quiz/data/data_sources/quiz_remote_data_source.dart';
@@ -15,7 +16,7 @@ Future<void> configureDependencies() async {
   getIt.registerLazySingleton(
     () => Dio(
       BaseOptions(
-        baseUrl: 'https://opentdb.com',
+        baseUrl: AppConstants.baseUrl,
         connectTimeout: const Duration(seconds: 30),
         receiveTimeout: const Duration(seconds: 30),
       ),
