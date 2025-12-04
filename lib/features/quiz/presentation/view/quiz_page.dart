@@ -77,7 +77,7 @@ class QuizView extends StatelessWidget {
           if (state is QuizLoaded) {
             final question = state.questions[state.currentIndex];
             final progress =
-                ((state.currentIndex + 1) / state.questions.length) * 100;
+                ((state.currentIndex) / state.questions.length) * 100;
 
             if (state.showFeedback) {
               Future.delayed(const Duration(seconds: 1), () {
@@ -133,7 +133,7 @@ class QuizView extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Question ${state.currentIndex + 1}/${state.questions.length}',
+                'Question ${state.currentIndex}/${state.questions.length}',
                 style: TextStyle(
                   fontSize: 14.sp,
                   fontWeight: FontWeight.bold,
