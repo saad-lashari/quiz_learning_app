@@ -93,11 +93,11 @@ Tests added:
 
 ## 4. App Video
 
-[Watch Video](https://drive.google.com/file/d/1gThczp9fM627nGOIFX-EIO4J84utj0ni/view?usp=sharing)
+[Watch Video](https://drive.google.com/file/d/1XMYIClpZ3I_b8HnW0EixswzD9HuyfU4Y/view?usp=drive_link)
 
 
 
 ## 5. App APK
 
-[Download APK](https://drive.google.com/file/d/1krZD-MG36VpFMV0_PoK8smnbVm71JdLr/view?usp=sharing)
+[Download APK](https://drive.google.com/file/d/1ga7Gi0dNBD1U2rc5F-IbzIGycNAZzbgy/view?usp=sharing)
 
